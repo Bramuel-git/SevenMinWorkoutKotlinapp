@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/benjamoore"
+    tools:context=".MainActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <VideoView
+        android:id="@+id/videoViewqq"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_above="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-396dp"
+        tools:ignore="NotSibling,UnknownId"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnpause"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/teal"
+            android:padding="4dp"
+            android:text="Pause"
+            android:textColor="@color/white" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:background="@color/benjamoore" />
+
+        <Button
+            android:id="@+id/btnresume"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/teal"
+            android:padding="4dp"
+            android:text="Start Workout"
+            android:textColor="@color/white" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@color/benjamoore" />
+
+        <Button
+            android:id="@+id/btnrestart"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/teal"
+            android:padding="4dp"
+            android:text="Restart"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_end"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="fin"
+            android:background="@color/teal"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">S7MinworkoutTrial</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_timer">Timer</string>
+    <string name="oncompletion">
+        <b>Well Done!</b>
+        \n \n <b>Exercise Completed!</b>
+    </string>
+    <string name="go_again"><b>Go Again!</b>
+    </string>
+
+</resources>
